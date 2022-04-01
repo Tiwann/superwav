@@ -1,0 +1,3 @@
+[submodule "wavlib"]
+	path = wavlib
+	url = git@github.com:Tiwann/wavlib.git
