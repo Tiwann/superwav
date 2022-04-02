@@ -1,7 +1,11 @@
+.vs
+.idea
 binaries
 binaries-obj
 *.vcxproj
 *.vcxproj.filters
+*.vcxproj.user
 *.sln
 *Makefile
 CMakeLists.txt
+superwav/*.wav
