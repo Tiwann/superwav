@@ -3,3 +3,5 @@ binaries-obj
 *.vcxproj
 *.vcxproj.filters
 *.sln
+*Makefile
+CMakeLists.txt
