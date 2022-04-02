@@ -1,0 +1,5 @@
+binaries
+binaries-obj
+*.vcxproj
+*.vcxproj.filters
+*.sln
