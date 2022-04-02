@@ -14,7 +14,7 @@ project "superwav"
     kind "ConsoleApp"
     language "C++"
     cppdialect "C++20"
-    systemversion "Latest"
+    systemversion "latest"
 
     targetdir(bindir)
     objdir(intdir)
