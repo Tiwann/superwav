@@ -1,7 +1,6 @@
-#define WAVLIB_IMPLEMENTATION
 #include <wavlib.h>
+#include <generator.h>
 
-#include "generator.h"
 
 
 int main(const int argc, const char** argv)
