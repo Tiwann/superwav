@@ -34,11 +34,13 @@ project "superwav"
     {
 
     }
+    
+    links "wavlib"
 
     filter "system:windows"
         defines "_CRT_SECURE_NO_WARNINGS"
 
-    links "wavlib"
+    
 
     filter "configurations:Debug"
         runtime "Debug"
