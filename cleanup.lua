@@ -9,7 +9,7 @@ newaction
 
     execute = function()
         os.rmdir("binaries")
-        os.rmdir("binaries-int")
+        os.rmdir("binaries-obj")
         os.rmdir(".vs")
         os.rmdir(".idea")
         os.remove("**.vcxproj")

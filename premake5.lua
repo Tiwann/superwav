@@ -9,6 +9,7 @@ workspace "superwav"
 bindir = "%{wks.location}/binaries"
 intdir = "%{wks.location}/binaries-obj"
 
+
 project "superwav"
     location "superwav"
     kind "ConsoleApp"
@@ -27,7 +28,7 @@ project "superwav"
 
     includedirs
     {
-        "wavlib/include"
+        "%{wks.location}/vendor/wavlib/include",
     }
 
     defines
@@ -35,8 +36,11 @@ project "superwav"
 
     }
     
-    links "wavlib"
-    links "openal"
+    links 
+    {
+        "wavlib",
+        
+    }
 
     filter "system:windows"
         defines "_CRT_SECURE_NO_WARNINGS"
@@ -51,5 +55,5 @@ project "superwav"
         runtime "Release"
         optimize "On"
 
-include "wavlib"
-include "openal"
+
+include "vendor/wavlib"
