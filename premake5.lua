@@ -36,6 +36,7 @@ project "superwav"
     }
     
     links "wavlib"
+    links "openal"
 
     filter "system:windows"
         defines "_CRT_SECURE_NO_WARNINGS"
@@ -51,3 +52,4 @@ project "superwav"
         optimize "On"
 
 include "wavlib"
+include "openal"

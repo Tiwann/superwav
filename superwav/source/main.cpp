@@ -5,10 +5,7 @@ int main(const int argc, const char** argv)
 {
     wavlib::wav audio(R"(C:\Users\Tiwann\Desktop\Start Your Engines.wav)");
 
-    wavlib::generators::sine sine(1.0f, 440, 0.5f);
-    audio = sine.towav();
-    audio.write_to_file("sine.wav");
-
+    
     //wavlib::generators::square square(1.0f, 440, 0.5f);
     //audio = square.towav();
     //audio.write_to_file("square.wav");
