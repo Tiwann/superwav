@@ -1,3 +1,6 @@
 [submodule "vendor/wavlib"]
 	path = vendor/wavlib
 	url = git@github.com:Tiwann/wavlib.git
+[submodule "vendor/openal"]
+	path = vendor/openal
+	url = git@github.com:Tiwann/openal.git

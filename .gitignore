@@ -2,7 +2,7 @@
 .idea
 .vscode
 binaries
-binaries-obj
+binaries-int
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
